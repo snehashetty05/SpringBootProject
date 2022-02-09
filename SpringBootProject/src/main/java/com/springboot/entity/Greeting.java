@@ -19,6 +19,11 @@ public class Greeting {
 	public void setUuid(String uuid) {
 		this.uuid = uuid;
 	}
+
+	@Override
+	public String toString() {
+		return "Greeting [uuid=" + uuid + "]";
+	}
 	
 
 }
